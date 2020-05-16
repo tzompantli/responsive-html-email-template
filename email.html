@@ -142,7 +142,7 @@
       h2,
       h3,
       h4 {
-        color: var(--spd-rot);
+        color: #E3000F;
         font-family: 'Open Sans', sans-serif;
         font-weight: 700;
         line-height: 1.4;
@@ -175,22 +175,12 @@
       }
 
       .spd-ul {
-        list-style: none;
+        list-style-image:url("Images/square-bullet-spd-red-12px.jpg");;
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
         font-weight: normal;
         margin: 0;
         margin-bottom: 15px; 
-      }
-
-      .spd-ul li::before {
-        font-family: 'Open Sans', sans-serif;
-        content: "\25A0";  /* Add content: \25A0 is the CSS Code/unicode for a square */
-        font-weight: 700;
-        display: inline-block; /* Needed to add space between the bullet and the text */
-        width: 1em; /* Also needed for space (tweak if needed) */
-        margin-left: -1em; /* Also needed for space (tweak if needed) */
-        color: var(--spd-rot);
       }
 
       .spd-ul li {
@@ -299,6 +289,9 @@
       hr {
         border: 0;
         border-bottom: 1px solid #f6f6f6;
+        height: 1px;
+        background-color: #d9d9d9;
+        background-image: linear-gradient(to right, #eeeeee, #d9d9d9, #eeeeee);
         margin: 20px 0; 
       }
 
@@ -434,6 +427,16 @@
                             At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                           </li>
                         </ul>
+                        <hr/>
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td class="art-with-img">
+                              <h2>So geht es den Leutenbachern in Zeiten von Corona</h2>
+                              <img src="/Images/test-img-menschen.jpg" style="width: 100%;"/>
+                              <p>In den letzen Wochen mussten die Leutenbacher tapfer zuhause verweilen. Corona sei Dank!</p>
+                            </td>
+                          </tr>
+                        </table>
                         <hr/>
                         <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
                           <tbody>
