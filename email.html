@@ -35,6 +35,11 @@
         max-width: 100%;
       }
 
+      .img-article {
+        width: 100%;
+        margin-bottom: 18px;
+      }
+
       body {
         background-color: #f6f6f6;
         font-family: 'Open Sans', sans-serif;
@@ -148,13 +153,20 @@
         line-height: 1.4;
         margin: 0;
         margin-top: 30px;
-        margin-bottom: 30px; 
+        margin-bottom: 18px; 
       }
 
       h1 {
         font-size: 35px;
         font-weight: 700;
         text-align: center;
+        text-transform: capitalize; 
+      }
+
+      h2 {
+        font-size: 22px;
+        font-weight: 700;
+        text-align: left;
         text-transform: capitalize; 
       }
 
@@ -446,13 +458,14 @@
                           <tr>
                             <td class="art-with-img">
                               <h2>So geht es den Leutenbachern in Zeiten von Corona</h2>
-                              <img src="/Images/test-img-menschen.jpg" style="width: 100%;"/>
-                              <p>In den letzen Wochen mussten die Leutenbacher tapfer zuhause verweilen. Corona sei Dank!</p>
+                              <img src="/Images/test-img-menschen.jpg" class="img-article"/>
+                              <p>In den letzen Wochen mussten die Leutenbacher tapfer zuhause verweilen. Corona sei Dank.</p>
+                              <p>Jetzt w&uuml;nschenn sich die Menschen eine R&uuml;ckkehr in ihren alten Alltag.</p>
                             </td>
                           </tr>
                         </table>
                         <hr/>
-                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+                        <!--<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
                           <tbody>
                             <tr>
                               <td align="left">
@@ -466,14 +479,14 @@
                               </td>
                             </tr>
                           </tbody>
-                        </table>
-                        <p>This is a really simple email template. Its sole purpose is to get the recipient to click the button with no distractions.</p>
-                        <p>Good luck! Hope it works.</p>
+                        </table>-->
+                        <p></p>
+                        <p>Viele Gr&uuml;&szlig;e<br>habt eine gute Zeit!</p><p>Pierre</p>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <img src="Images/rose_cut_high_resolution.jpg" alt="Bild der SPD-Rose" style="width:40%">
+                        <img src="Images/rose_cut_high_resolution.jpg" alt="Bild der SPD-Rose" style="width:40%; margin-top: 20px;">
                       </td>
                     </tr>
                   </table>
@@ -489,13 +502,15 @@
               <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 <tr>
                   <td class="content-block">
-                    <span class="apple-link">Company Inc, 3 Abbey Road, San Francisco CA 94102</span>
-                    <br> Don't like these emails? <a href="http://i.imgur.com/CScmqnj.gif">Unsubscribe</a>.
+                    <span class="apple-link">Pierre Orthen - Ortsvorsitzender</span><br>
+                    <span class="apple-link">Bahnhofstr.42 71397 Leutenbach</span><br>
+                    <span class="apple-link">Tel.: 0174/9127779 - E-Mail: pierre.orthen@spdleutenbach.</span><br>
+                    <br> Du magst keine E-Mails von uns? <a href="https://spd-leutenbach.de"> Newsletter k&uuml;ndigen</a>.
                   </td>
                 </tr>
                 <tr>
                   <td class="content-block powered-by">
-                    Powered by <a href="http://htmlemail.io">HTMLemail</a>.
+                    Powered by <a href="https://github.com/tzompantli/responsive-html-email-template">HTMLemail</a>.
                   </td>
                 </tr>
               </table>
